@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search Suggestion</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+#suggestions{
+border:1px solid #ccc;
+width:200px;
+display:none;
+background:white;
+}
+
+.item{
+padding:5px;
+cursor:pointer;
+}
+
+.item:hover{
+background:#f0f0f0;
+}
+</style>
+
+</head>
+
+<body>
+
+<input type="text" id="search" placeholder="Search">
+<div id="suggestions"></div>
+
+<script src="search.js"></script>
+
+</body>
+</html>
